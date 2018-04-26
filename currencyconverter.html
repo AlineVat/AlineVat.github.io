@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Convert between currencies</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/currency.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"> 
+</head>
+<body onload="start()">
+	<div class="center">
+	<div id="box">
+		<h1><img id="titletable" src="images/banner_title.png" alt="Convert between Currencies"></h1>
+		<div id="container">
+		<div class="instructiondiv"><p class="instruction">Please, select the currency you want to convert <strong>from (first dropdown menu)</strong> and the one you want to convert <strong>to (second dropdown menu)</strong> and insert the amount you want to convert. </p></div>	
+		<table id="converter">
+			<tr>
+				<td><input id="fromAmount" size="10" type="text" onkeyup="convertCurrencyvalidated();" autofocus placeholder="0.00" pattern="^\$?(([1-9](\d*|\d{0,2}(,\d{3})*))|0)(\.\d{1,2})?$" >
+				</td>
+				<td>
+				  <div class="searchselect">
+					<select id="dropdownfrom" onchange="convertCurrency();">					
+					</select>
+					</div>	
+				</td>
+				</tr>					
+				<tr><td><input id="toAmount" size="10" type="text" disabled></td>		
+					<td>
+					 <div class="searchselect">
+					<select id="dropdown1" onchange="convertCurrency();">
+						
+					</select>
+				</div>
+				</td>					
+			</tr>
+		</table>
+	</div>
+	</div>
+	<hr>
+	<footer>*The updated exchange rates are obtained through Fixer.io API, with its data based on daily feeds from the European Central Bank.
+	<br >
+	<br >	
+	*The currency codes and names follow the ISO 4217 standard.</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+body {
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+    background-color: #FFFAFA;
+
+
+}
+
+#converter {
+	    /*border: 1px solid #c3c3c3;*/
+	    align-content: center;
+	    position: center center;
+	    padding-top: 25px;
+	    padding-bottom: 35px;
+	    padding-left: 45px;	
+	    padding-right: 10px;
+
+
+}	    
+
+#converter > * {align-content: center;}
+
+
+
+#container {
+	    padding-top: -20px;
+	    padding-bottom: 75px;
+	    padding-left: 25px;	
+	    padding-right: 20px;
+		background-image: url(../images/border_small2.png);
+		background-repeat:no-repeat;		
+		/*width: 387px;*/
+		/*height: 307px;*/
+		width: 407px;
+		height: 325px;	 
+}
+
+.instructiondiv{
+	padding-top: 40px;
+	padding-bottom: -70px ;
+	padding-right: 90px;
+	padding-left: 50px;
+	text-align:center;
+	position: top center;
+	position: relative;
+	font-size: 14px;
+	font-family: 'Abel', sans-serif;
+	color: #585850;
+
+
+}   
+
+input{
+	height: 22px;
+	background-color: rgba(240, 245, 245, 0.5);
+    text-shadow: 2px 1px #cccccc;
+    /*color: #e6f2ff;*/
+    color: #484897;
+	text-align:justify;
+	padding-top:-1px;    
+	padding-left: 1px;
+}
+
+input[type="text"]:disabled {
+    background: #c9c9cf;
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;    
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+h1 { 
+    padding-left: 20px;   
+    text-align: center;
+    padding-bottom: -30px;
+}
+ 
+#titletable {
+		    align-content: center;
+		    padding-left: 5px;
+}
+
+
+#box {
+	margin: auto;
+	    width: 50%;
+	        padding: 10px;
+}
+
+.searchselect{
+		overflow:hidden;
+		background: url(../images/arrow.png) no-repeat 96% #ddd;;
+		border: 2px;
+}
+
+
+.searchselect:hover { border: 1px solid #FFFFFF;
+appearance: none;}
+
+
+.searchselect select {
+    position: relative;
+    background: transparent;
+    width: 175px;
+    height: 29px;    
+    top: -1px;
+    left: -1px; 
+    padding: 2px;
+    font-size: 14px;
+	font-family: 'Abel', sans-serif;
+	/*font-weight: 600;     */
+    -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;       /* remove default arrow */ 
+   text-align: left;   
+}
+
+
+footer {   text-align: center; 
+	font-family: 'Abel', sans-serif;
+	font-size: 13px;
+	color: #808080;
+	padding-top: 5px;
+
+}
+
